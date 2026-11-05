@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# API keys and secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+*.pem
+*.key
+
+# Large datasets
+*.csv
+*.xlsx
+*.xls
+*.parquet
+*.zip
+
+# Trained models
+*.pkl
+*.pickle
+*.keras
+*.h5
+*.joblib
+
+# Generated files
+*.log
+*.db
+*.sqlite
+*.sqlite3
+
+# Temporary and backup files
+*.bak
+*.tmp
+*backup*/
+*backups*/
+
+# IDE and OS
+.vscode/
+.DS_Store
+Thumbs.db
